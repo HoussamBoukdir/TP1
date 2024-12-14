@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td coslapan="1"  width="20%">cypher</td>
+            <td colspan="1" width="80%"></td>
+        </tr>
+        <tr>
+            <td>killjoy</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>deadlock</td>
+            <td></td>
+        </tr>
+            <td>chamber</td>
+            <td></td>
+        <tr>
+            <td>reyna</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>raze</td>
+            <td></td>
+        </tr> 
+    </table>
+    <br><br><br><br><br>
+   
+       <form action="">
+         <fieldset>
+        <p>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom">
+        </p>
+        <p>
+            <label for="prenom">Prenom</label>
+            <input type="text" id="prenom" name="prenom">
+        </p>
+        <p>
+            <label for="genre">Sexe</label>
+            F <input type="radio" id="genre" name="genre">
+            M <input type="radio" id="genre" name="genre">
+        </p>
+        <p>
+            <label for="date de naissance">date de naissance</label>
+            <input type="date" id="date de naissance" name="date de naissance">
+        </p>
+        <p>
+            <label for="etude">niveau d etude</label>
+            <select name="etude" id="etude">
+                <option value="etude">3eme annee</option>
+                <option value="etude">2eme annee</option>
+                <option value="etude">1ere annee</option>
+            </select>
+        </p>
+        <p>
+            <label for="specialite">specialite</label>
+            <input type="text" id="specialite" name="specialite">
+        </p>
+        <p>
+            <label for="telephone">telephone</label>
+            <input type="tel" id="telephone" name="telephone" pattern="0[567][0-9]{8}" >
+        </p>
+        <p>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email">
+        </p>
+        <p>
+            <label for="site">site web personnel</label>
+            <input type="url" id="site" name="site">
+        </p>
+        <p>
+            <label for="adresse">adresse</label>
+            <textarea id="adresse" name="adresse" cols="20" rows="3"></textarea>
+        </p>
+        <P>
+            <label for="photo">photo</label>
+            <input type="file" id="photo" name="photo">
+        </P>
+        <p>
+            <fieldset>
+                <legend>diplome :</legend> 
+                <label for="bac">bac</label>
+                <input type="checkbox" id="bac" name="bac"> 
+                <label for="deug">deug</label>
+                <input type="checkbox" id="deug" name="deug">   
+                <label for="license">deug</label>
+                <input type="checkbox" id="license" name="license">   
+            </fieldset>
+        </p>
+        <p>
+            <label for="cin">cin</label>
+            <input type="text" id="cin" name="cin" pattern="BE[0-9]{6}">
+        </p>
+        <P>
+            <label for="age">age</label>
+            <input type="number" id="age" name="age" step="2" min="0" max="22">
+        </P>
+        <P>
+            <label for="colour">couleur</label>
+            <input type="color" id="couleur" name="couleur" value="#0000ff">
+        </P>
+        <p>
+            <label for="volume">volume</label>
+            <input type="range" id="volume" name="volume" min="0" max="50">
+        </p>
+        <p>
+            <label for="rendez-vouz">rendez-vouz</label>
+            <input type="datetime-local" id="rendez-vouz" name="rendez-vouz">
+        </p>
+        <p>
+            <label for=""></label>
+        </p>
+
+
+            <input type="submit" value="envoyer">
+            <input type="reset">
+         </fieldset>
+        </form>
+        <br><br>
+        <table border="1">
+            <tr>
+                <td colspan="1" width="30%">NOM</td>
+                <td colspan="1" width="70%"></td>
+                <td input="text" id="nom" name="nom" required></td>
+            </tr>
+            <tr>
+                <td>prenom</td>
+                <td > <input="text" id="prenom" name="prenom"></td>
+            </tr>
+            <br>
+        </table>
+        <br>
+        <input type="submit" value="send">
+         <input type="reset">
+  
+</body>
+</html>
+
